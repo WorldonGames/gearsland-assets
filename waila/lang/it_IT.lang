@@ -84,8 +84,8 @@ hud.msg.black=Nero
 
 hud.msg.growth=Crescita
 hud.msg.mature=Maturo
-hud.msg.off=Attivo
-hud.msg.on=Disattivato
+hud.msg.off=Spento
+hud.msg.on=Acceso
 hud.msg.state=Stato
 hud.msg.delay=Ritardo
 hud.msg.comparator=Comparatore

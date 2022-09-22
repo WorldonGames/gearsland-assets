@@ -1,7 +1,7 @@
-tile.mud.mud.name=Fango
+tile.mud.mud.name=Fango limoso
 tile.mud.quicksand.name=Sabbie mobili
 
-tile.ashStone.name=Roccia cenere
+tile.ashStone.name=Basalto
 tile.hardSand.name=Sabbia indurita
 tile.hardDirt.name=Terra indurita
 tile.hardIce.name=Ghiaccio cristallino
@@ -18,8 +18,8 @@ tile.rocks.siltstonesmooth.name=Siltite lucido
 tile.rocks.shale.name=Shale
 tile.rocks.shalesmooth.name=Shale lucido
 
-tile.ash.name=Blocco di cenere
-tile.flesh.name=Blocco di carne
+tile.ash.name=Cenere
+tile.flesh.name=Carne
 
 tile.plants.deadgrass.name=Erba secca
 tile.plants.desertgrass.name=Erba desertica
@@ -138,13 +138,13 @@ tile.coral1.bluecoral.name=Corallo blu
 tile.coral1.glowcoral.name=Corallo luminescente
 tile.coral2.algae.name=Alghe
 
-tile.newBopGrass.silty.name=Erba melmosa
+tile.newBopGrass.silty.name=Erba limosa
 tile.newBopGrass.sandy.name=Erba sabbiosa
 tile.newBopGrass.loamy.name=Erba argillosa
-tile.newBopDirt.dirt_silty.name=Terra melmosa
+tile.newBopDirt.dirt_silty.name=Terra limosa
 tile.newBopDirt.dirt_sandy.name=Terra sabbiosa
 +tile.newBopDirt.dirt_loamy.name=Terra argillosa
-tile.newBopDirt.coarse_dirt_silty.name=Terra brulla melmosa
+tile.newBopDirt.coarse_dirt_silty.name=Terra brulla limosa
 tile.newBopDirt.coarse_dirt_sandy.name=Terra brulla sabbiosa
 tile.newBopDirt.coarse_dirt_loamy.name=Terra brulla argillosa
 
@@ -449,7 +449,7 @@ entity.BiomesOPlenty.Bird.name=Uccello
 entity.BiomesOPlenty.Pixie.name=Pixie
 
 achievement.bop.achFlower=Figlio dei fiori
-achievement.bop.achFlower.desc=Diventa uno con la natura!
+achievement.bop.achFlower.desc=Diventa un tutt'uno con la natura!
 
 achievement.bop.achBerry=Raccogliere bacche
 achievement.bop.achBerry.desc=Le cose semplici nella vita...
