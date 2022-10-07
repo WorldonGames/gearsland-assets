@@ -1,0 +1,28 @@
+tile.advmachine.macerator.name=Maceratore rotativo
+tile.advmachine.compressor.name=Compressore alternativo
+tile.advmachine.extractor.name=Estrattore centrifugo
+tile.advmachine.canner.name=Inscatolatrice ad aria compressa
+tile.advmachine.washer.name=Sfangatrice a pale
+tile.advmachine.recycler.name=Riciclatore-compattatore
+tile.advmachine.extruder.name=Estrusore termico
+tile.advmachine.roller.name=Laminatore a pressione
+tile.advmachine.cutter.name=Tagliablocchi ad acqua
+
+tile.advmachine.arraycable.name=Cavo elettrico per generatori modulari
+tile.advmachine.arraysolar.name=Pannello solare modulare
+tile.advmachine.arraywind.name=Generatore eolico modulare
+tile.advmachine.arraywater.name=Generatore idroelettrico modulare
+tile.advmachine.arraycontroller.name=Inverter per generatori modulari
+advmachine.arraycontroller.rclick01=-***** INVERTER *****-
+advmachine.arraycontroller.rclickRR=Frequenza di aggiornamento: ogni %st, monitorando %s blocchi
+advmachine.arraycontroller.rclickSP=%s pannelli solari in tensione
+advmachine.arraycontroller.rclickWA=%sEU/t da generatori idroelettrici
+advmachine.arraycontroller.rclickWI=%sEU/t da generatori eolici
+advmachine.arraycontroller.rclickCP=Potenza totale erogata: %sEU/t
+
+item.advmachine.sharpplate.name=Lame in ferro
+
+gui.advmachine.pressure=Pressione:\n%1$d\nGibbl
+gui.advmachine.speed=Velocità:\n%1$d\nRPM
+gui.advmachine.canner.speed=Velocità: %1$d cm/s
+gui.advmachine.temp=Riscaldamento:\n%1$d%%
