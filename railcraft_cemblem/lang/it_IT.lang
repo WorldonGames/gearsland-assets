@@ -1,0 +1,4 @@
+item.railcraft_cemblem.custom_emblem.name=Incisione
+tile.railcraft_cemblem.post.emblem_sign.name=Palo metallico con segnale
+tile.railcraft_cemblem.machine.custom.engraving.bench.name=Banco per incisioni
+railcraft_cemblem.gui.engrave=Incidi
