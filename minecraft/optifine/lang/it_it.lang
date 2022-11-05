@@ -1,7 +1,7 @@
 # General
 of.general.ambiguous=ambiguo
 of.general.custom=Personalizza
-of.general.from=De
+of.general.from=Da
 of.general.id=ID
 of.general.restart=Riavvia
 of.general.smart=Intelligente
@@ -10,98 +10,105 @@ of.general.smart=Intelligente
 of.key.zoom=Zoom
 
 # Message
-of.message.aa.shaders1=L'Antialiasing non è compatibile con le Shaders.
-of.message.aa.shaders2=Disattivale per usare questa funzione.
+of.message.aa.shaders1=L'antialiasing non è compatibile con gli shader
+of.message.aa.shaders2=Disattivali per usare questa funzione
 
-of.message.af.shaders1=L'Anisotropico non è compatibile con le Shaders
-of.message.af.shaders2=Disattivale per usare questa funzione.
+of.message.af.shaders1=Il filtro anisotropico non è compatibile con gli shader
+of.message.af.shaders2=Disattivali per usare questa funzione
 
-of.message.fr.shaders1=Il Rendering non è compatibile con le Shaders.
-of.message.fr.shaders2=Disattivale per usare questa funzione.
+of.message.fr.shaders1=Il rendering non è compatibile con gli shader
+of.message.fr.shaders2=Disattivali per usare questa funzione
 
-of.message.shaders.aa1=Le Shaders non sono compatibili con l'Antialiasing.
-of.message.shaders.aa2=Per disattivarlo, fai clic su Qualità -> Antialiasing.
+of.message.shaders.aa1=Gli shader non sono compatibili con l'antialiasing
+of.message.shaders.aa2=Per disattivarli fai clic su Qualità -> Antialiasing
 
-of.message.shaders.af1=Le Shaders non sono compatibili con l'Anisotropico.
-of.message.shaders.af2=Per disattivarlo, fai clic su Qualità -> Anisotropico.
+of.message.shaders.af1=Gli shader non sono compatibili col filtro anisotropico
+of.message.shaders.af2=Per disattivarli fai clic su Qualità -> Anisotropico
 
-of.message.shaders.fr1=Le Shaders non sono compatibili col Rendering Veloce.
-of.message.shaders.fr2=Per disattivarlo, fai clic su Prestazione -> Rendering Veloce.
+of.message.shaders.fr1=Gli shader non sono compatibili col rendering veloce.
+of.message.shaders.fr2=Per disattivarli fai clic su Prestazioni -> Rendering veloce.
 
 of.message.newVersion=C'è una nuova versione di §eOptiFine§f disponibile: §e%s§f
-of.message.java64Bit=Installa §eJava da 64-bits§f per migliorare il Rendering
+of.message.java64Bit=Installa §eJava da 64-bits§f per migliorare il rendering
 of.message.openglError=§eErrore di OpenGL§f: %s (%s)
 
-of.message.shaders.loading=Caricando le Shaders: %s
+of.message.shaders.loading=Caricando gli shader: %s
 
-of.message.other.reset=Ristabilire tutte le impostazioni grafiche?
+of.message.other.reset=Reimpostare tutte le impostazioni grafiche?
  
-# Impostazioni Video
+ 
+# Impostazioni video
 
 options.graphics.tooltip.1=Grafica
-options.graphics.tooltip.2=  Rapida  - qualità peggiore, prestazioni migliori
-options.graphics.tooltip.3=  Dettagliata - qualità migliore, prestazioni peggiori
+options.graphics.tooltip.2=  Semplice (qualità peggiore, prestazioni migliori)
+options.graphics.tooltip.3=  Avanzata (qualità migliore, prestazioni peggiori)
 options.graphics.tooltip.4= 
-options.graphics.tooltip.5=I cambiamenti sono visti nelle nuvole, nelle foglie,
-options.graphics.tooltip.6=sotto la pioggia, negli oggetti buttati e negli
-options.graphics.tooltip.7=angoli (o bordi) della schermata di gioco.
+options.graphics.tooltip.5=I cambiamenti sono visibili nelle nuvole, nelle foglie,
+options.graphics.tooltip.6=nella pioggia, negli oggetti per terra e negli
+options.graphics.tooltip.7=angoli (o bordi) della schermata di gioco
 
 of.options.renderDistance.extreme=Estrema
 
-options.renderDistance.tooltip.1=Distanza dei chuncks renderizzati
-options.renderDistance.tooltip.2=  2 Minima - 32m (incredibilemente veloce)
-options.renderDistance.tooltip.3=  4 Corta - 64m (veloce)
+options.renderDistance.tooltip.1=Numero di chunck renderizzati
+options.renderDistance.tooltip.2=  2 Minima - 32m (più veloce)
+options.renderDistance.tooltip.3=  4 Corta - 64m
 options.renderDistance.tooltip.4=  8 Normale - 128m
-options.renderDistance.tooltip.5=  16 Lontana - 256m (lento)
-options.renderDistance.tooltip.6=  32 Estrema - 512m (estremamente lento!)
-options.renderDistance.tooltip.7=Il Rendering estremo ha bisogno di un buon computer!
-options.renderDistance.tooltip.8=I valori superiori a 16 non funzionano in multigiocatore.
+options.renderDistance.tooltip.5=  16 Lontana - 256m
+options.renderDistance.tooltip.6=  32 Estrema - 512m  (più lento)
+options.renderDistance.tooltip.7=Il rendering estremo ha bisogno di un buon computer!
+options.renderDistance.tooltip.8=I valori superiori a 16 non funzionano in multigiocatore
 
-options.ao.tooltip.1=Luci soffuse
-options.ao.tooltip.2=  No - senza luci soffuse (veloce)
-options.ao.tooltip.3=  Minimo - luci soffuse semplici (lento)
-options.ao.tooltip.4=  Massimo - luci soffuse avanzate (più lento)
+options.ao.tooltip.1=Luce soffusa
+options.ao.tooltip.2=  No (luce soffusa disattivata)
+options.ao.tooltip.3=  Minima (luce soffusa semplice)
+options.ao.tooltip.4=  Massima (luce soffusa avanzata)
 
-options.framerateLimit.tooltip.1=Limite di FPS
-options.framerateLimit.tooltip.2=  Sincronizzazione verticale - limita gli FPS secondo il tuo schermo (60, 30, 20)
-options.framerateLimit.tooltip.3=  5-255 - limite di FPS personalizzato
-options.framerateLimit.tooltip.4=  Senza limite - tutti gli FPS possibili (veloce)
+options.framerateLimit.tooltip.1=Limite degli FPS
+options.framerateLimit.tooltip.2=  Sincronizzazione verticale (VSYNC)
+options.framerateLimit.tooltip.3=  Intervallo tra 5 e 255
+options.framerateLimit.tooltip.4=  Nessun limite
 options.framerateLimit.tooltip.5=
-options.framerateLimit.tooltip.6=Impostando un limite di FPS, essi possono diminuire il
-options.framerateLimit.tooltip.7=Raggiungimento ad esso.
-of.options.framerateLimit.vsync=Sincronizzazione verticale
+options.framerateLimit.tooltip.6=Limitare il framerate riduce gli FPS anche se
+options.framerateLimit.tooltip.7=il limite non è stato raggiunto
+of.options.framerateLimit.vsync=(VSYNC)
 
-of.options.AO_LEVEL=Livello di morbidezza
-of.options.AO_LEVEL.tooltip.1=livello di illuminazione morbida
-of.options.AO_LEVEL.tooltip.2=  No - senza ombre
-of.options.AO_LEVEL.tooltip.3=  50%% - poche ombre
-of.options.AO_LEVEL.tooltip.4=  100%% - ombre scure
-options.viewBobbing.tooltip.1=Movimento più realistico.
-options.viewBobbing.tooltip.2=Disattivare l'utilizzo di mipmap per ottenere un miglior risultato.
+of.options.AO_LEVEL=Livello luce soffusa
+of.options.AO_LEVEL.tooltip.1=Morbidezza delle ombre
+of.options.AO_LEVEL.tooltip.2=  No (ombre disattive)
+of.options.AO_LEVEL.tooltip.3=  50%% (ombre chiare)
+of.options.AO_LEVEL.tooltip.4=  100%% (ombre scure)
+options.viewBobbing.tooltip.1=Movimento più realistico
+options.viewBobbing.tooltip.2=Disattivare il mipmap per ottenere un miglior risultato
 
-options.guiScale.tooltip.1=Scala dell'Interfaccia (GUI)
-options.guiScale.tooltip.2=Un'interfaccia più piccola può migliorare le prestazioni.
-options.vbo.tooltip.1=Vertex Buffer Objects (abbreviato in VBO)
+options.guiScale.tooltip.1=Scala interfaccia (GUI)
+options.guiScale.tooltip.2=Un'interfaccia più piccola può migliorare le prestazioni
+options.guiScale.tooltip.3=  Piccola, Normale, Grande (da 1x a 3x)
+options.guiScale.tooltip.4=  Da 4x a 10x (disponibile su schermi UHD)
+options.guiScale.tooltip.5=
+options.guiScale.tooltip.6=Valori dispari non sono compatibili con Unicode
+
+options.vbo.tooltip.1=Vertex Buffer Objects (VBO)
 options.vbo.tooltip.2=In alternativa è il rendering che di solito è più
 options.vbo.tooltip.3=veloce (5-10%%) alla forma default.
 
-options.gamma.tooltip.1=Modificare la luminosità
-options.gamma.tooltip.2=  Scura - Luminosità di default
-options.gamma.tooltip.3=  1-99%% - Luminosità personalizzata
-options.gamma.tooltip.4=  Luminoso - Luminosità al massimo
+options.gamma.tooltip.1=Modifica la luminosità
+options.gamma.tooltip.2=  Cupa (come la tua vita)
+options.gamma.tooltip.3=  Intervallo da 1 a 99%%
+options.gamma.tooltip.4=  Brillante (splendente come i tuoi occhi)
 options.gamma.tooltip.5=
 options.gamma.tooltip.6=Questa opzione non cambia particolarmente
-options.gamma.tooltip.7=la luminosità degli oggetti più scuri.
+options.gamma.tooltip.7=la luminosità degli oggetti più scuri
 
 options.anaglyph.tooltip.1=Visione in 3D
-options.anaglyph.tooltip.2=Attivare un effetto stereoscopico utilizzando un colore
-options.anaglyph.tooltip.3=differente per ogni occhio.
-options.anaglyph.tooltip.4=NOTA: Richiede occhiali anaglifi (rossi e blu).
+options.anaglyph.tooltip.2=  Attiva un effetto stereoscopico utilizzando un colore
+options.anaglyph.tooltip.3=  differente per ogni occhio
+options.anaglyph.tooltip.4=
+options.anaglyph.tooltip.5=NOTA: Richiede occhiali anaglifi (rossi e blu)!
 
-of.options.ALTERNATE_BLOCKS=Blocchi alternati
+of.options.ALTERNATE_BLOCKS=Texture blocchi alternati
 of.options.ALTERNATE_BLOCKS.tooltip.1=Blocchi con texture alternate
-of.options.ALTERNATE_BLOCKS.tooltip.2=Utilizzare texture alternative per lo stesso blocco.
-of.options.ALTERNATE_BLOCKS.tooltip.3=Dipende dal pacchetto di risorse usato.
+of.options.ALTERNATE_BLOCKS.tooltip.2=  Utilizza texture alternative per lo stesso blocco
+of.options.ALTERNATE_BLOCKS.tooltip.3=  Dipende se il pacchetto di risorse usato lo supporta
 
 of.options.FOG_FANCY=Nebbia
 of.options.FOG_FANCY.tooltip.1=Tipo di nebbia
@@ -129,8 +136,8 @@ of.options.CHUNK_LOADING.tooltip.8=gli FPS e usare un secondo nucleo della CPU.
 of.options.chunkLoading.smooth=Morbido
 of.options.chunkLoading.multiCore=Multinucleo
 
-of.options.shaders=Shaders...
-of.options.shadersTitle=Shaders
+of.options.shaders=Shader
+of.options.shadersTitle=Shader
 
 of.options.shaders.packNone=(SENZA SHADERS)
 of.options.shaders.packDefault=(SHADERS INTERNE)
@@ -144,29 +151,29 @@ of.options.shaders.HAND_DEPTH_MUL=Profondità di campo
 of.options.shaders.CLOUD_SHADOW=Ombre delle nuvole
 of.options.shaders.OLD_HAND_LIGHT=LC nelle mani
 of.options.shaders.OLD_LIGHTING=Luce Classica (LC)
-of.options.shaders.SHADER_PACK=Pacchetto di Shaders
+of.options.shaders.SHADER_PACK=Pacchetto di shader
 
-of.options.shaders.shadersFolder=Cartella Shaders
-of.options.shaders.shaderOptions=Opzioni delle Shaders...
+of.options.shaders.shadersFolder=Cartella shader
+of.options.shaders.shaderOptions=Opzioni shader
 
-of.options.shaderOptionsTitle=Opzioni delle Shaders
+of.options.shaderOptionsTitle=Opzioni shader
 
-of.options.quality=Qualità...
+of.options.quality=Qualità
 of.options.qualityTitle=Opzioni grafiche
 
-of.options.details=Dettagli...
+of.options.details=Dettagli
 of.options.detailsTitle=Opzioni grafiche
 
-of.options.performance=Prestazioni...
+of.options.performance=Prestazioni
 of.options.performanceTitle=Prestazioni
 
-of.options.animations=Animazioni...
+of.options.animations=Animazioni
 of.options.animationsTitle=Attivare e disattivare le animazioni
 
-of.options.other=Opzioni varie...
+of.options.other=Opzioni varie
 of.options.otherTitle=Opzioni varie
 
-of.options.other.reset=Ripristinare tutte le impostazioni...
+of.options.other.reset=Ripristinare tutte le impostazioni
 
 of.shaders.profile=Profilo
 
@@ -416,15 +423,15 @@ of.options.DYNAMIC_FOV.tooltip.3=  No - disattivarlo
 of.options.DYNAMIC_FOV.tooltip.4=Cambiare la visione del campo dinamio (FOV), quando si corre, cammina e si usa
 of.options.DYNAMIC_FOV.tooltip.5=un arco.
 
-of.options.DYNAMIC_LIGHTS=Iluminazione dinamica
-of.options.DYNAMIC_LIGHTS.tooltip.1=Iluminazione dinamica
-of.options.DYNAMIC_LIGHTS.tooltip.2=  No - senza illuminazione d. (per default)
-of.options.DYNAMIC_LIGHTS.tooltip.3=  Rapida - i. dinamica veloce (aggiornato ogni 500ms)
-of.options.DYNAMIC_LIGHTS.tooltip.4=  Dettagliata - i. dinamiche dettagliate (aggiornate in tempo reale)
+of.options.DYNAMIC_LIGHTS=Luci dinamiche
+of.options.DYNAMIC_LIGHTS.tooltip.1=Luci dinamiche
+of.options.DYNAMIC_LIGHTS.tooltip.2=  No (luci dinamiche disattivate)
+of.options.DYNAMIC_LIGHTS.tooltip.3=  Veloce (aggiornamento ogni 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=  Dettagliata (aggiornamento in tempo reale)
 of.options.DYNAMIC_LIGHTS.tooltip.5= 
-of.options.DYNAMIC_LIGHTS.tooltip.6=Questa opzione permette a certi oggetti che emettono luce di farlo anche non essendo piazzati
-of.options.DYNAMIC_LIGHTS.tooltip.7=Quando metti uno di questi oggetti in mano o quando li butti
-of.options.DYNAMIC_LIGHTS.tooltip.8=l'ambiente si accende (colpisce: torce, pietra luminosa ...).
+of.options.DYNAMIC_LIGHTS.tooltip.6=
+of.options.DYNAMIC_LIGHTS.tooltip.7=Gli oggetti che emettono luce illuminano l'ambiente anche
+of.options.DYNAMIC_LIGHTS.tooltip.8=quando li tieni in mano o quando li getti per terra
 
 # Performance
 
@@ -589,8 +596,8 @@ of.options.SCREENSHOT_SIZE.tooltip.1= Dimensione Screenshot
 of.options.SCREENSHOT_SIZE.tooltip.2=  Predefinito - dimensioni normali
 of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - Formati personalizzati
 of.options.SCREENSHOT_SIZE.tooltip.4=Gli Screenshots occupano più spazio aumentando la dimensione.
-of.options.SCREENSHOT_SIZE.tooltip.5=Non è compatibile col Rendering veloce né col Antialiasing.
-of.options.SCREENSHOT_SIZE.tooltip.6=Richieda che la tua scheda grafica supporti Framebuffer
+of.options.SCREENSHOT_SIZE.tooltip.5=Non è compatibile col rendering veloce né con l'antialiasing
+of.options.SCREENSHOT_SIZE.tooltip.6=Richieda che la tua scheda grafica supporti il framebuffer
 
 of.options.ADVANCED_TOOLTIPS=Le descrizioni di oggetti
 of.options.ADVANCED_TOOLTIPS.tooltip.1=Le descrizioni degli oggetti nell'inventario
@@ -598,4 +605,4 @@ of.options.ADVANCED_TOOLTIPS.tooltip.2=  Sì - mostra le descrizioni
 of.options.ADVANCED_TOOLTIPS.tooltip.3=  No - non mostrare descrizioni (per default)
 of.options.ADVANCED_TOOLTIPS.tooltip.4=Questa opzione consente di visualizzare informazioni più dettagliate
 of.options.ADVANCED_TOOLTIPS.tooltip.5=su oggetti (ID, durata) e le
-of.options.ADVANCED_TOOLTIPS.tooltip.6=Shaders (ID, origine, di default).
+of.options.ADVANCED_TOOLTIPS.tooltip.6=Shader (ID, origine, di default)
