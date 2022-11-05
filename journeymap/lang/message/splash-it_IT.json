@@ -1,0 +1,24 @@
+{
+	"lines": [
+		{
+			"label": "Nuovo tema 'Vault'. Clicca qui per provarlo!",
+			"action": "fullscreen.Fullscreen#setTheme#Vault"
+		},
+		{
+			"label": "Migliorato l'uso della CPU e della RAM",
+			"action": ""
+		},
+		{
+			"label": "Colori più accurati per biomi e acqua",
+			"action": ""
+		},
+		{
+			"label": "JourneyMapServer è incluso nello stesso JAR",
+			"action": ""
+		},
+		{
+			"label": "Rilasciato contemporaneamente per Minecraft 1.7.10 e 1.8",
+			"action": ""
+		}
+	]
+}
