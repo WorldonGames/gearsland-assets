@@ -3,7 +3,7 @@
 //********//
 
 //Items
-tile.ObsidianTNT.name=Tritolo di ossidiana
+tile.ObsidianTNT.name=TNT d'ossidiana
 item.EnrichedAlloy.name=Lega arricchita
 item.ReinforcedAlloy.name=Lega rinforzata
 item.AtomicAlloy.name=Lega atomica
@@ -198,9 +198,9 @@ item.eliteFactoryInstaller.name=Installatore di fabbrica élite
 //Dust
 item.ironDust.name=Polvere di ferro
 item.goldDust.name=Polvere d'oro
-item.osmiumDust.name=Polvere di osmio
-item.obsidianDust.name=Polvere di ossidiana
-item.refinedobsidianDust.name=Polvere di ossidiana raffinata
+item.osmiumDust.name=Polvere d'osmio
+item.obsidianDust.name=Polvere d'ossidiana
+item.refinedobsidianDust.name=Polvere d'ossidiana raffinata
 item.diamondDust.name=Polvere di diamante
 item.steelDust.name=Polvere d'acciaio
 item.copperDust.name=Polvere di rame
@@ -213,7 +213,7 @@ item.lithiumDust.name=Polvere di litio
 //Clumps
 item.ironClump.name=Grumo di ferro
 item.goldClump.name=Grumo d'oro
-item.osmiumClump.name=Grumo di osmio
+item.osmiumClump.name=Grumo d'osmio
 item.copperClump.name=Grumo di rame
 item.tinClump.name=Grumo di stagno
 item.silverClump.name=Grumo d'argento
@@ -222,7 +222,7 @@ item.leadClump.name=Grumo di piombo
 //Shards
 item.ironShard.name=Frammento di ferro
 item.goldShard.name=Frammento d'oro
-item.osmiumShard.name=Frammento di osmio
+item.osmiumShard.name=Frammento d'osmio
 item.copperShard.name=Frammento di rame
 item.tinShard.name=Frammento di stagno
 item.silverShard.name=Frammento d'argento
@@ -231,7 +231,7 @@ item.leadShard.name=Frammento di piombo
 //Crystals
 item.ironCrystal.name=Cristallo di ferro
 item.goldCrystal.name=Cristallo d'oro
-item.osmiumCrystal.name=Cristallo di osmio
+item.osmiumCrystal.name=Cristallo d'osmio
 item.copperCrystal.name=Cristallo di rame
 item.tinCrystal.name=Cristallo di stagno
 item.silverCrystal.name=Cristallo d'argento
@@ -240,15 +240,15 @@ item.leadCrystal.name=Cristallo di piombo
 //Dirty Dust
 item.dirtyIronDust.name=Polvere sporca di ferro
 item.dirtyGoldDust.name=Polvere sporca d'oro
-item.dirtyOsmiumDust.name=Polvere sporca di osmio
+item.dirtyOsmiumDust.name=Polvere sporca d'osmio
 item.dirtyCopperDust.name=Polvere sporca di rame
 item.dirtyTinDust.name=Polvere sporca di stagno
 item.dirtySilverDust.name=Polvere sporca d'argento
 item.dirtyLeadDust.name=Polvere sporca di piombo
 
 //Ingots
-item.obsidianIngot.name=Lingotto di ossidiana raffinata
-item.osmiumIngot.name=Lingotto di osmio
+item.obsidianIngot.name=Lingotto d'ossidiana raffinata
+item.osmiumIngot.name=Lingotto d'osmio
 item.bronzeIngot.name=Lingotto di bronzo
 item.glowstoneIngot.name=Lingotto di luminite
 item.steelIngot.name=Lingotto d'acciaio
