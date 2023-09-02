@@ -25,4 +25,4 @@ item.advmachine.sharpplate.name=Lame in ferro
 gui.advmachine.pressure=Pressione:\n%1$d\nGibbl
 gui.advmachine.speed=Velocità:\n%1$d\nRPM
 gui.advmachine.canner.speed=Velocità: %1$d cm/s
-gui.advmachine.temp=Riscaldamento:\n%1$d%%
+gui.advmachine.temp=Calore:\n%1$d%%
